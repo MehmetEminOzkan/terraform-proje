@@ -1,12 +1,12 @@
 variable "key-name" {
     type = string
-    default = "techpro"
+    default = "meozkan"
   
 }
 
 variable "hosted-zone" {
     type = string
-    default = "techpro.com"
+    default = "meozkan.com"
   
 }
 variable "env" {
@@ -17,6 +17,6 @@ variable "env" {
 
 variable "git-user" {
     type = string
-    default = "techpro"
+    default = "meozkan"
   
 }

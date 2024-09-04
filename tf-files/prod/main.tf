@@ -19,7 +19,7 @@ module "contactlist" {
   source   = "../modules"
   git-user = "MehmetEminOzkan"
   key-name = "firstkey"
-  hosted-zone = "samdevops.link"
+  hosted-zone = "meozkan.com"
   env = "prod"
 }
 

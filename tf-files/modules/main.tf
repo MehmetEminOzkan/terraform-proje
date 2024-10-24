@@ -118,8 +118,8 @@ resource "aws_db_instance" "db-server" {
   db_name = "contactlist"
   engine = "mysql"
   engine_version = "8.0.35"
-  username = "techpro"
-  password = "techpro123"
+  username = "terraform"
+  password = "trproje123"
   monitoring_interval = 0
   multi_az = false
   port = 3306

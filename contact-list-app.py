@@ -10,8 +10,8 @@ db_endpoint = open("/home/ec2-user/terraform-proje/dbserver.endpoint", 'r', enco
 # Configure mysql database
 
 app.config['MYSQL_DATABASE_HOST'] = db_endpoint.readline().strip()
-app.config['MYSQL_DATABASE_USER'] = 'techpro'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'techpro123'
+app.config['MYSQL_DATABASE_USER'] = 'terraform'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'trproje123'
 app.config['MYSQL_DATABASE_DB'] = 'contactlist'
 app.config['MYSQL_DATABASE_PORT'] = 3306
 db_endpoint.close()
